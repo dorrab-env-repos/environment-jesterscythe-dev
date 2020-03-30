@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:jesterscythe/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:jesterscythe/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:jesterscythe/prow:hmacToken
+segmentWriteKey: vault:jesterscythe:segmentWriteKey
